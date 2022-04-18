@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+    background-color:#f9004d ;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    background-color: #101010;
+}
+.hero img{
+    width: 569px;
+    height: 590px;
+    margin-top: 50px;
+    margin-left: 1000px;
+    border-radius: 12px;
+
+}
+.hero h2{
+    background-color: #101010;
+    font-size: 100px;
+    margin-left: 580px;
+    margin-top: 55px;
+}
+.logo{
+    color: white;
+    font-size: 95px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-left:  30px; ;
+
+}
+nav{
+    background-color: #101010;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between ;
+    padding-top: 68px;
+    padding-left: 400px;
+    padding-right: 8%;
+    font-size: 20px ;
+}
+span{
+    color:orangered;
+    background-color: #101010;
+}
+nav ul li{
+    background-color: #101010;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 75px;
+
+}
+nav ul li a{
+    background-color: #101010;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #d8f900;
+    transition: .4s;
+}
+.hom1 img{
+    width: 250px;
+    height: 270px;
+    margin-left: 190px;
+    border-radius: 12px;
+}
+
+.home h3{
+    font-size: 30px;
+    color:white;
+    margin-left: 200px;
+}
+.home h1{
+    font-size: 45px;
+    color: orangered;
+    margin-left: 200px;
+}
+.transbox {
+    margin-top: 30px;
+    margin-left: 0px;
+    background-color: black;
+    border: 1px solid gray;
+    opacity: 0.8;
+    
+  }
+.transbox p {
+    margin: 5%;
+    background-color:black;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+  }
+  
+
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.main{
+    width:1130px;
+    max-width: 95% ;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main img{
+    width: 369px;
+    height: 390px;
+    margin-right: 10px;
+    border-radius: 12px;
+
+}
+.about{
+    color: white ;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 440px;
+}
+.about-text h5{
+    color: greenyellow;
+    letter-spacing: 2px;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-transform: capitalize ;
+
+}
+.about-text p{
+   color: black;
+   letter-spacing: 1px;
+   line-height: 28px;
+   font-size: 18px;
+   margin-bottom: 45px;
+}
+
+.title h2{
+    color: white;
+    font-size: 95px;
+    margin-top: 220px;
+    text-align: center;
+
+}
+.mySkill1 img{
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 5px;
+   
+}
+.mySkill2 img{
+    margin-top: 15px;
+    width: 290px;
+    margin-left: 15px;
+   
+}
+.o{
+    background-color: white;
+}
+.cont{
+    margin-left: 120px;
+    margin-top: 60px;
+    float: left;
+    width: 20%;
+    padding: 5px;
+   
+}
+.cont img{
+    width: 310px;
+    height: 330px;
+    border-radius: 15px;
+}
+.cont h2{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: yellow;
+}
+.cont p{
+    font-family: cursive;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fcfc;
+
+}
+
+.contact h1{
+    color: white;
+    font-size: 95px;
+    margin-top: 920px;
+   /* /* margin: 30px auto; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact h3{
+    font-family: cursive;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.contact button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-left: 650px;
+    font-size: 30px;
+    margin-bottom: 230px;
+    }
+    .contact button:hover{
+    transform: scale(1.2);
+    }
